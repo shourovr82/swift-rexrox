@@ -1,5 +1,5 @@
 .banner-home {
-  background-image: linear-gradient(rgba(109, 43, 4, 0.527), rgba(0, 0, 0, 0.5)), url(../../../Assets/banner.jpg);
+  background-image: linear-gradient(rgba(22, 9, 1, 0.527), rgba(0, 0, 0, 0.5)), url(../../../Assets/banner.jpg);
   background-size: cover;
   margin-top: -100px;
   background-color: black;

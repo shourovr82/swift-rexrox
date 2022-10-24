@@ -1,0 +1,16 @@
+.login-banner {
+
+  background: linear-gradient(to right, #F0CB35, #C02425);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 1000px;
+  margin-top: -100px;
+
+}
+
+.form-background {
+  background: rgba(208, 2, 27, 0);
+  box-shadow: 0 8px 32px 0 rgba(2, 7, 80, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+}

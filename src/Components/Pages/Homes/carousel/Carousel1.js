@@ -2,7 +2,7 @@ import React from 'react';
 
 const Carousel1 = () => {
   return (
-    <div className="flex items-center justify-center -mx-4 lg:pl-8">
+    <div className="grow items-center justify-center -mx-4 lg:pl-8">
       <div className="flex flex-col items-end px-3">
         <img
           className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"

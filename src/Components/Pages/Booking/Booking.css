@@ -1,0 +1,12 @@
+.booking-banner {
+  background-image: (rgba(22, 8, 0, 0.527), rgba(0, 0, 0, 0.5));
+  background-size: cover;
+  background-color: black;
+  height: 780px;
+  width: 100%;
+  margin-top: -100px;
+}
+
+.booking-mar {
+  margin-top: -100px;
+}
