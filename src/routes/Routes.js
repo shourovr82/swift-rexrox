@@ -14,7 +14,7 @@ export const routes = createBrowserRouter([
     children: [
       {
         path: '/',
-        loader: () => fetch('http://localhost:5000/hotels'),
+        loader: () => fetch('https://swift-rexrox-server.vercel.app/hotels'),
         element: <Homes></Homes>
       },
       {
@@ -23,7 +23,7 @@ export const routes = createBrowserRouter([
       },
       {
         path: '/place/:id',
-        loader: ({ params }) => fetch(`http://localhost:5000/place/${params.id}`),
+        loader: ({ params }) => fetch(`https://swift-rexrox-server.vercel.app/place/${params.id}`),
         element: <PrivateRoute><Booking></Booking></PrivateRoute>
       },
       {
